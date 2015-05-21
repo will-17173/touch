@@ -1,0 +1,59 @@
+{
+  "name": "lazyload",
+  "version": "1.0.0",
+  "description": "延迟加载组件",
+  "keywords": [
+    "lazyload",
+    "pandora"
+  ],
+  "homepage": "https://github.com/pandorajs/lazyload",
+  "bugs": {
+    "url": "https://github.com/pandorajs/lazyload/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/pandorajs/lazyload/LICENSE-MIT"
+    }
+  ],
+  "author": {
+    "name": "pandorajs",
+    "url": "https://github.com/pandorajs"
+  },
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pandorajs/lazyload.git"
+  },
+  "scripts": {
+    "test": "grunt qunit"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-cmd-transport": "crossjs/grunt-cmd-transport",
+    "grunt-cmd-concat": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-yuidoc": "*",
+    "grunt-coveralls": "*",
+    "grunt-qunit-istanbul": "*",
+    "matchdep": "*"
+  },
+  "family": "pandora",
+  "spm": {
+    "output": [
+      "lazyload.js"
+    ],
+    "alias": {
+      "$": "$",
+      "base": "pandora/base/1.0.0/base",
+      "widget": "pandora/widget/1.0.0/widget"
+    }
+  }
+}
